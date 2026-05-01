@@ -7,3 +7,18 @@ nav {
     display: flex;
     align-items: center;
 }
+/* Navigation Menu Styling */
+.nav-menu {
+    list-style: none;        /* remove bullets */
+    display: flex;           /* make horizontal */
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li {
+    margin: 0 15px;          /* spacing between links */
+}
+.nav-menu a {
+    text-decoration: none;   /* remove underline */
+    color: #0a0a23;          /* dark text color */
+    font-weight: 500;
+}
