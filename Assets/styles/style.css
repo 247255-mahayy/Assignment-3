@@ -22,3 +22,15 @@ nav {
     color: #0a0a23;          /* dark text color */
     font-weight: 500;
 }
+/* Sign-in Button Styling */
+.btn-signin {
+    background-color: #5b4bff;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.btn-signin:hover {
+    background-color: #4838e6;
+}
