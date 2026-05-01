@@ -34,3 +34,14 @@ nav {
 .btn-signin:hover {
     background-color: #4838e6;
 }
+/* Nav Link Hover Effect */
+.nav-menu a {
+    transition: 0.3s;
+}
+.nav-menu a:hover {
+    color: #5b4bff; /* same as button color */
+}
+/* Improve button hover smoothness */
+.btn-signin {
+    transition: 0.3s;
+}
