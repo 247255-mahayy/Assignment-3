@@ -45,3 +45,20 @@ nav {
 .btn-signin {
     transition: 0.3s;
 }
+/* Header Spacing */
+header {
+    padding: 20px 0;
+}
+/* Space between menu and button */
+.nav-right {
+    gap: 20px;
+}
+/* Improve nav link spacing */
+.nav-menu li {
+    margin: 0 12px;
+}
+/* Logo styling (basic spacing) */
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
