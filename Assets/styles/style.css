@@ -62,3 +62,19 @@ header {
     font-size: 20px;
     font-weight: 700;
 }
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.logo-box {
+    background: #FFC107;   /* yellow box */
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.logo-text {
+    font-size: 20px;
+}
