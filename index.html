@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certo</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Certo | Mobile Privacy</title>
+    
+    <!-- MANDATORY: This exact link makes the side-by-side layout work -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    
+    <!-- Your local style file -->
+    <link rel="stylesheet" href="Assets/styles/style.css">
 </head>
+
 
 <body>
 
 <!-- HEADER -->
 <header>
     <div class="container">
-        <nav class="navbar">
-
+        <nav class="navbar-custom">
             <!-- Logo -->
-            <div class="logo">
+            <a href="#" class="logo">
                 <span class="logo-box">C</span>
-                <span class="logo-text">erto</span>
-            </div>
+                <span class="logo-text">Certo</span>
+            </a>
 
-            <!-- Navigation -->
+            <!-- Navigation & Sign In -->
             <div class="nav-right">
                 <ul class="nav-menu">
                     <li><a href="#">iPhone</a></li>
@@ -30,10 +33,8 @@
                     <li><a href="#">Help</a></li>
                     <li><a href="#">Company</a></li>
                 </ul>
-
                 <a href="#" class="btn-signin">Sign in</a>
             </div>
-
         </nav>
     </div>
 </header>
@@ -42,74 +43,44 @@
 <section class="hero">
     <div class="container">
         <div class="row align-items-center">
-
-            <!-- TEXT -->
-            <div class="col-lg-6 col-md-6 col-12">
-
-                <h1>Your mobile privacy is our mission</h1>
-
-                <p>
-                    Think your phone has been hacked? Our trusted apps make it easy 
-                    for you to scan, detect and remove threats from your iPhone 
-                    and Android devices.
+            
+            <!-- Left Column: Text -->
+            <div class="col-lg-6 col-12">
+                <h1 class="hero-title">Your mobile privacy <br> is our mission</h1>
+                <p class="hero-subtitle">
+                    Think your phone has been hacked? Our trusted apps make it 
+                    easy for you to scan, detect and remove threats from your 
+                    iPhone and Android devices.
                 </p>
-
                 <div class="hero-buttons">
-                    <a href="#" class="btn-primary-custom">Get Certo for iPhone</a>
+                    <a href="#" class="btn-primary-custom">Get Certo for iPhone &nbsp; →</a>
                     <a href="#" class="btn-secondary-custom">Get Certo for Android</a>
                 </div>
-
             </div>
 
-            <!-- IMAGE -->
-            <div class="col-lg-6 col-md-6 col-12 text-center">
-                <img src="assets/images/phone.png" class="img-fluid" alt="phone">
+            <!-- Right Column: Image Frame -->
+            <div class="col-lg-6 col-12">
+                <div class="hero-frame-container">
+                    <div class="image-frame">
+                        <img src="Assets/images/phone.png" class="phone-display" alt="Certo App">
+                    </div>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
-<!-- TESTIMONIALS SECTION START -->
+<!-- TESTIMONIALS SECTION (Commit 62) -->
 <section class="testimonials">
     <div class="container">
-
-        <div class="section-title text-center">
+        <!-- Commit 62: Added section title -->
+        <div class="testimonials-heading">
             <h2>Loved by thousands of iPhone and Android users alike</h2>
         </div>
-
-        <div class="row mt-5">
-
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>Great app, very helpful and easy to use.</p>
-                    <h6>- User Name</h6>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>Really helped me detect issues quickly.</p>
-                    <h6>- User Name</h6>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="testimonial-card">
-                    <div class="stars">★★★★★</div>
-                    <p>Very easy and smooth experience.</p>
-                    <h6>- User Name</h6>
-                </div>
-            </div>
-
-        </div>
-
     </div>
 </section>
-<!-- TESTIMONIALS SECTION END -->
+
+<!-- Bootstrap JS -->
+<script src="https://jsdelivr.net"></script>
 </body>
 </html>
