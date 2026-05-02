@@ -78,3 +78,21 @@ header {
 .logo-text {
     font-size: 20px;
 }
+/* Hero Section Styling */
+.hero {
+    padding: 80px 0; /* top & bottom space */
+}
+
+/* Align content vertically */
+.hero .row {
+    align-items: center;
+}
+
+/* Space between buttons */
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.hero-buttons a {
+    margin-right: 10px;
+}
