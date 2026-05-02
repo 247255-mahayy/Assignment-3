@@ -111,3 +111,22 @@ header {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+/* Primary Button (Yellow) */
+.btn-primary-custom {
+    background-color: #FFC107;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Secondary Button (Outline) */
+.btn-secondary-custom {
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+}
