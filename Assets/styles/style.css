@@ -48,6 +48,15 @@ body {
 /* ORANGE BOX POSITIONING */
 
 
-
+.figma-frame {
+    width: 590px;
+    height: 520px;
+    background: linear-gradient(rgba(255, 154, 0, 0.3), rgba(255, 154, 0, 0.3)), url('../images/hero-bg.png');
+    background-size: cover;
+    border: 12px solid #4632da;
+    
+    border-bottom: none;
+    position: relative;
+}
 
 
