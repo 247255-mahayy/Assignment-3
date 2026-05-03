@@ -63,4 +63,10 @@ body {
     position: relative;
 }
 
-
+.phone-img {
+    position: absolute;
+    width: 940px; /* Reduced from 850px to fit box */
+    top: 40px;
+    right: 180px;
+    filter: drop-shadow(0 40px 60px rgba(0,0,0,0.4));
+}
