@@ -170,3 +170,15 @@ body {
     height: auto;
     opacity: 0.9;
 }
+.mission-section {
+    background: #ffffff;
+    padding: 100px 0;
+}
+.mission-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 30px; 
+    color: #02033b;
+    max-width: 448px;
+    margin-bottom: 40px;
+}
