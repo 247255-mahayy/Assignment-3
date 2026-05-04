@@ -69,3 +69,17 @@ body {
     right: 180px;
     filter: drop-shadow(0 40px 60px rgba(0,0,0,0.4));
 }
+.testimonials {
+    background-color: #F7C95F;
+    padding: 90px 0 450px;
+    margin-top: -0px; 
+    position: relative;
+    z-index: 1;
+}
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #02033b;
+    padding-left: 8%;
+    line-height: 1.1;
+}
