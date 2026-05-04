@@ -83,3 +83,34 @@ body {
     padding-left: 8%;
     line-height: 1.1;
 }
+.featured-strip-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.featured-full-img {
+    max-width: 1248px;
+    width: 90%;
+    height: auto;
+}
+.test-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px; /* Rounded corners */
+    min-width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft shadow */
+    flex-shrink: 0; /* Prevents cards from squishing */
+}
+
+.stars {
+    color: #ffc107; /* Yellow stars */
+    margin-bottom: 20px;
+}
+
+.user-handle {
+    display: block;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #02033b;
+}
