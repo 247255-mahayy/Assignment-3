@@ -64,14 +64,14 @@ body {
 
 .phone-img {
     position: absolute;
-    width: 940px; /* Reduced from 850px to fit box */
+    width: 940px; 
     top: 40px;
     right: 180px;
     filter: drop-shadow(0 40px 60px rgba(0,0,0,0.4));
 }
 .testimonials {
     background-color: #F7C95F;
-    padding: 90px 0 450px;
+    padding: 60px 0 250px;
     margin-top: -0px; 
     position: relative;
     z-index: 1;
@@ -81,6 +81,7 @@ body {
     font-weight: 800;
     color: #02033b;
     padding-left: 8%;
+    padding-bottom: 2%;
     line-height: 1.1;
 }
 .featured-strip-container {
@@ -95,40 +96,33 @@ body {
 }
 .testimonial-row {
     display: flex;
-    gap: 20px; /* Reduced gap to fit more cards on screen */
+    gap: 20px; 
     padding: 20px 0 80px 10%; 
     overflow-x: auto;
     scrollbar-width: none;
 }
-
 .test-card {
     background: #ffffff;
-    /* REDUCED PADDING: From 45px to 30px to make the card look shorter */
     padding: 30px; 
     border-radius: 24px;
-    /* SHORTENED WIDTH: Changed from 400px/440px to 340px */
     min-width: 240px; 
     max-width: 290px;
     flex-shrink: 0;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     
-    /* Ensure content stays aligned */
     display: flex;
     flex-direction: column;
     justify-content: ;
-    height: 220px; /* Fixed height to keep them uniform and "short" */
+    height: 220px;
 }
-
 .test-card p {
-    /* Exact Specs from your Figma Panel */
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 20px; /* Precise line height */
+    line-height: 20px; 
     letter-spacing: 0%;
     color: #02033b;
     
-    /* Shorten logic: limit to 6 lines to keep the card compact */
     display: -webkit-box;
     -webkit-line-clamp: 6; 
     -webkit-box-orient: vertical;
@@ -136,29 +130,21 @@ body {
     
     margin-bottom: 25px;
 }
-
-/* Update the user handle to match the same color */
 .user-handle {
     font-weight: 800;
     font-size: 16px;
     color: #02033b;
 }
-
-
-
 .stars {
-    color: #ffc107; /* Yellow stars */
+    color: #ffc107; 
     margin-bottom: 20px;
 }
-
 .user-handle {
     display: block;
     margin-top: 20px;
     font-weight: 800;
     color: #02033b;
 }
-
-
 .testimonial-row::-webkit-scrollbar {
-    display: none; /* Hides scrollbar for Chrome */
+    display: none; 
 }
