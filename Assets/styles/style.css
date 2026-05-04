@@ -148,3 +148,24 @@ body {
 .testimonial-row::-webkit-scrollbar {
     display: none; 
 }
+.featured-in-container {
+    display: flex;
+    align-items: center; 
+    padding-left: 10%;   
+    margin-top: 50px;
+    gap: 40px;           
+}
+
+.featured-label {
+    font-size: 20px;
+    font-weight: 800;
+    color: #02033b;
+    white-space: nowrap;
+}
+
+.logos-img {
+    max-width: 900px;   
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
