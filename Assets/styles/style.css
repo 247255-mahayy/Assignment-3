@@ -394,3 +394,31 @@ body {
     border: 2px solid #02033b;
     color: #02033b;
 }
+.cta-banner {
+    background-color: #4632da; /* Certo Blue */
+    padding: 80px 0;
+    text-align: center;
+    width: 100%;
+}
+.cta-title {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.cta-subtitle {
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+}
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-outline-white {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+}
