@@ -84,24 +84,67 @@ body {
     line-height: 1.1;
 }
 .featured-strip-container {
-    width: 100%;
+    padding-left: 13.3%;
     display: flex;
-    justify-content: center;
-    padding-top: 40px;
+    align-items: center;
 }
 .featured-full-img {
     max-width: 1248px;
     width: 90%;
     height: auto;
 }
+.testimonial-row {
+    display: flex;
+    gap: 20px; /* Reduced gap to fit more cards on screen */
+    padding: 20px 0 80px 10%; 
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
 .test-card {
     background: #ffffff;
-    padding: 40px;
-    border-radius: 24px; /* Rounded corners */
-    min-width: 400px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08); /* Soft shadow */
-    flex-shrink: 0; /* Prevents cards from squishing */
+    /* REDUCED PADDING: From 45px to 30px to make the card look shorter */
+    padding: 30px; 
+    border-radius: 24px;
+    /* SHORTENED WIDTH: Changed from 400px/440px to 340px */
+    min-width: 240px; 
+    max-width: 290px;
+    flex-shrink: 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    
+    /* Ensure content stays aligned */
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    height: 220px; /* Fixed height to keep them uniform and "short" */
 }
+
+.test-card p {
+    /* Exact Specs from your Figma Panel */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px; /* Precise line height */
+    letter-spacing: 0%;
+    color: #02033b;
+    
+    /* Shorten logic: limit to 6 lines to keep the card compact */
+    display: -webkit-box;
+    -webkit-line-clamp: 6; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
+    margin-bottom: 25px;
+}
+
+/* Update the user handle to match the same color */
+.user-handle {
+    font-weight: 800;
+    font-size: 16px;
+    color: #02033b;
+}
+
+
 
 .stars {
     color: #ffc107; /* Yellow stars */
@@ -114,13 +157,7 @@ body {
     font-weight: 800;
     color: #02033b;
 }
-.testimonial-row {
-    display: flex;
-    gap: 25px; /* Space between cards */
-    padding: 60px 10%; /* Matches your text indent */
-    overflow-x: auto; /* Allows horizontal scrolling */
-    scrollbar-width: none; /* Hides scrollbar */
-}
+
 
 .testimonial-row::-webkit-scrollbar {
     display: none; /* Hides scrollbar for Chrome */
