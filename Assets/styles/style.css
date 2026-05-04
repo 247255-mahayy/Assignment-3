@@ -114,3 +114,14 @@ body {
     font-weight: 800;
     color: #02033b;
 }
+.testimonial-row {
+    display: flex;
+    gap: 25px; /* Space between cards */
+    padding: 60px 10%; /* Matches your text indent */
+    overflow-x: auto; /* Allows horizontal scrolling */
+    scrollbar-width: none; /* Hides scrollbar */
+}
+
+.testimonial-row::-webkit-scrollbar {
+    display: none; /* Hides scrollbar for Chrome */
+}
