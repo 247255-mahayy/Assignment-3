@@ -70,8 +70,8 @@ body {
     filter: drop-shadow(0 40px 60px rgba(0,0,0,0.4));
 }
 .testimonials {
-    background-color: #F7C95F;
-    padding: 60px 0 250px;
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+    padding: 60px 0 120px;
     margin-top: -0px; 
     position: relative;
     z-index: 1;
@@ -79,6 +79,7 @@ body {
 .section-title {
     font-size: 32px;
     font-weight: 800;
+    font-family: 'Inter', sans-serif;
     color: #02033b;
     padding-left: 8%;
     padding-bottom: 2%;
