@@ -182,3 +182,9 @@ body {
     max-width: 448px;
     margin-bottom: 40px;
 }
+.mission-buttons {
+    display: flex;
+    flex-direction: column; /* Stacked layout */
+    gap: 15px;
+    align-items: flex-start;
+}
