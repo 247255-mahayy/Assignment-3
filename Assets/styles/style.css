@@ -388,3 +388,9 @@ body {
     color: #ffffff;
     width: fit-content;
 }
+
+.help-content .btn-outline {
+    width: fit-content;
+    border: 2px solid #02033b;
+    color: #02033b;
+}
