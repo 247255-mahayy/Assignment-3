@@ -345,3 +345,30 @@ body {
     gap: 20px;
     margin-top: 30px;
 }
+.help-story-section {
+    background-color: #ffffff;
+    padding: 120px 0;
+    width: 100%;
+}
+
+.help-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px; /* Space between the two columns */
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #02033b;
+    margin-bottom: 20px;
+}
+
+.card-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #02033b;
+    margin-bottom: 35px;
+    max-width: 320px;
+}
