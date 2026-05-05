@@ -507,3 +507,20 @@ body {
     justify-content: center;
 }
 
+.site-footer {
+    background-color: #02033b; /* Deep Navy Blue */
+    padding: 100px 0 50px;
+    color: #ffffff;
+}
+.footer-main-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 1fr; /* Three column split */
+    gap: 50px;
+}
+.footer-slogan {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.footer-socials { display: flex; gap: 20px; }
+.footer-socials img { width: 30px; filter: brightness(0) invert(1); }
