@@ -564,3 +564,6 @@ body {
     border-radius: 100px;
     font-weight: 700;
 }
+.footer-legal { margin-top: 40px; }
+.footer-legal a { color: #fff; text-decoration: underline; margin-right: 20px; font-size: 14px; }
+.footer-copyright { font-size: 13px; opacity: 0.6; margin-top: 30px; line-height: 1.6; }
