@@ -152,7 +152,7 @@ body {
 .featured-in-container {
     display: flex;
     align-items: center; 
-    padding-left: 10%;   
+    padding-left: 15%;   
     margin-top: 50px;
     gap: 40px;           
 }
@@ -347,7 +347,7 @@ body {
 }
 .help-story-section {
     background-color: #ffffff;
-    padding: 120px 0;
+    padding: 50px 0;
     width: 100%;
 }
 
@@ -402,7 +402,7 @@ body {
 }
 .cta-title {
     color: #ffffff;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 15px;
 }
@@ -422,3 +422,4 @@ body {
     color: #ffffff;
     background: transparent;
 }
+
