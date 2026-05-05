@@ -424,8 +424,12 @@ body {
 }
 .insights-section {
     background-color: #f7f9ff;
-    padding: 100px 0;
+    padding-left: 2%;
+    padding-right: 85%;
+    padding-top: 5%;
+    padding-bottom: 3%;
     text-align: center;
+    width: 100%;
 }
 
 .insights-title {
@@ -433,21 +437,29 @@ body {
     font-weight: 800;
     color: #02033b;
     margin-bottom: 60px;
+    padding-bottom: 3%;
+    font: italic;
 }
 
 .insights-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    max-width: 1140px;
+    gap: 0px;
+    justify-content: center;
+    margin: 60px auto;
+    max-width: 1040px;
     margin: 0 auto 60px;
 }
 .insight-card {
-    background: #fff;
-    border-radius: 30px;
+    width: 280px;
+    height: 434px;
+    background-color: #FFFFFF;
+    border-radius: 48px; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 54px; 
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    text-align: left;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
 }
 
 .insight-header {
@@ -473,6 +485,7 @@ body {
 }
 .insight-body {
     padding: 35px;
+     text-align: left;
 }
 
 .insight-body h3 {
