@@ -422,4 +422,24 @@ body {
     color: #ffffff;
     background: transparent;
 }
+.insights-section {
+    background-color: #f7f9ff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.insights-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #02033b;
+    margin-bottom: 60px;
+}
+
+.insights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1140px;
+    margin: 0 auto 60px;
+}
 
