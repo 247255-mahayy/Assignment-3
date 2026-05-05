@@ -567,3 +567,9 @@ body {
 .footer-legal { margin-top: 40px; }
 .footer-legal a { color: #fff; text-decoration: underline; margin-right: 20px; font-size: 14px; }
 .footer-copyright { font-size: 13px; opacity: 0.6; margin-top: 30px; line-height: 1.6; }
+.footer-trademark-section {
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-trademark-section p { font-size: 11px; opacity: 0.4; line-height: 1.5; }
