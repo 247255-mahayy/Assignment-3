@@ -524,3 +524,20 @@ body {
 }
 .footer-socials { display: flex; gap: 20px; }
 .footer-socials img { width: 30px; filter: brightness(0) invert(1); }
+
+.footer-logo {
+    font-size: 28px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    width: fit-content;
+}
+.footer-links { list-style: none; padding: 0; }
+.footer-links li { margin-bottom: 15px; position: relative; padding-left: 25px; }
+.footer-links li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #ffc107;
+}
+.footer-links a { color: #fff; text-decoration: none; font-weight: 700; font-size: 18px; }
