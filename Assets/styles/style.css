@@ -427,7 +427,7 @@ body {
     padding-left: 2%;
     padding-right: 85%;
     padding-top: 5%;
-    padding-bottom: 3%;
+    padding-bottom: 5%;
     text-align: center;
     width: 100%;
 }
@@ -509,45 +509,137 @@ body {
 
 .site-footer {
     background-color: #02033b; /* Deep Navy Blue */
-    padding: 100px 0 50px;
+    padding: 100px 0;
     color: #ffffff;
+    width: 100vw;
+    position: relative;
+    left: 48.5%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;  
+    border-radius: 0px;
+    margin-top: 80px;  
 }
 .footer-main-grid {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr 1fr; /* Three column split */
     gap: 50px;
 }
+.footer-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    padding-left: 30%; 
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Ensures everything sticks to the left wall */
+    text-align: left;
+}
 .footer-slogan {
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 800;
     margin-bottom: 35px;
 }
-.footer-socials { display: flex; gap: 20px; }
+.footer-socials { display: flex; gap: 30px; padding-left: 0%; }
 .footer-socials img { width: 30px; filter: brightness(0) invert(1); }
 
 .footer-logo {
     font-size: 28px;
+    font-weight: 800;
+    color: #ffffff; 
     margin-bottom: 30px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    width: fit-content;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9); 
+    width: 140px;
+    
 }
 .footer-links { list-style: none; padding: 0; }
-.footer-links li { margin-bottom: 15px; position: relative; padding-left: 25px; }
+.footer-links li { margin-bottom: 25px; position: relative; padding-left: 40px; display: flex; align-items: center;}
 .footer-links li::before {
     content: "—";
     position: absolute;
     left: 0;
     color: #ffc107;
 }
-.footer-links a { color: #fff; text-decoration: none; font-weight: 700; font-size: 18px; }
+.footer-links a { color: #ffc107;; text-decoration: none; font-weight: 700; font-size: 18px; }
 
 .newsletter-box {
-    background-color: #ffc107;
-    padding: 40px;
-    border-radius: 40px;
+    background-color: #FFC247;
+    width: 440px; 
+    min-height: 380px; 
+    padding: 60px 65px;
+    border-radius: 45px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.newsletter-bg-logo {
+    position: absolute;
+    width: 260px;
+    height: auto;
+    bottom: -40px;
+    right: -40px;
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+}
+.newsletter-content {
+    position: relative;
+    z-index: 1;  
+    text-align: left;
+}
+.newsletter-content h3 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
     color: #02033b;
 }
+
+.newsletter-content p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #02033b;
+}
+.newsletter-image-container {
+    width: 100%;
+    max-width: 1000px;    
+    margin: 40px auto;    
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-image {
+    width: 350px;           
+    height: 200px;          
+    border-radius: 40px 40px 40px 40px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    padding-right: 80%;
+    padding: 60;
+}
+.footer-newsletter-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    align-items: flex-end;   
+}
+
+.footer-promo-box {
+    background-color: #ffffff;
+    width: 320px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: auto; 
+    margin-right: -650px; 
+    margin-top: 0px; 
+    display: block;
+}
+
 .subscribe-form {
     background: #fff;
     border-radius: 100px;
@@ -568,8 +660,18 @@ body {
 .footer-legal a { color: #fff; text-decoration: underline; margin-right: 20px; font-size: 14px; }
 .footer-copyright { font-size: 13px; opacity: 0.6; margin-top: 30px; line-height: 1.6; }
 .footer-trademark-section {
-    margin-top: 80px;
-    padding-top: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+    margin-top: 60px; 
+    padding-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 11%;
 }
-.footer-trademark-section p { font-size: 11px; opacity: 0.4; line-height: 1.5; }
+
+.footer-trademark-section p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF; 
+    text-align: left;
+    margin: 0;
+    letter-spacing: 0%;
+}
